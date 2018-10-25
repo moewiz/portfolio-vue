@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-    <Contact />
+    <div class="contact-box">
+      <Contact />
+    </div>
   </div>
 </template>
 
@@ -17,11 +19,9 @@ export default {
 
 <style>
 #app {
-  font-family: 'Avenir', Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
   margin-top: 60px;
+}
+.contact-box {
+  padding: 30px 20px;
 }
 </style>
